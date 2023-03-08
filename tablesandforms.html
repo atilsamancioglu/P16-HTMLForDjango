@@ -1,0 +1,89 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables & Forms</title>
+</head>
+<body>
+    <table border=1>
+        <!-- table head-->
+        <thead>
+            <th>Name</th>
+            <th>Salary</th>
+            <th>Department</th>
+            <th>Age</th>
+        </thead>
+        <!-- table row-->
+        <tr>
+            <td>James Hetfield</td>
+            <td>100</td>
+            <td>Musician</td>
+            <td>60</td>
+        </tr>
+
+        <tr>
+            <td>Lars Ulrich</td>
+            <td></td>
+            <td>Musician</td>
+            <td>66</td>
+        </tr>
+    </table>
+
+    <br><br><br>
+
+    <form action="images.html">
+        <label for="name">Name: </label>
+       <input type="text" id="name" name="name">
+       <br>
+       <label for="salary">Salary:</label>
+       <input type="text" id="salary" name="salary"> 
+       <br>
+       <input type="submit">
+    </form>
+
+    <br><br><br>
+
+    <form action="htmlbasics.html">
+        <label for="email">Email: </label>
+       <input type="email" id="email" name="email" placeholder="Enter your email">
+       <br>
+       <label for="passw">Passw:</label>
+       <input type="password" id="passw" name="passw" placeholder="Enter your password"> 
+       <br>
+       <input type="submit" value="Login">
+    </form>
+
+    <br><br><br>
+
+    <form action="divspanhtml.html">
+        <p>Star Wars vs. Star Trek?</p>
+
+        <label for="starwars">Starwars: </label>
+       <input type="radio" id="starwars" name="movie" value="starwars">
+       <br>
+       <label for="startrek">Startrek:</label>
+       <input type="radio" id="startrek" name="movie" value="startrek"> 
+       <br>
+       <input type="submit" value="Choose">
+    </form>
+
+    <br><br><br>
+
+    <form action="htmllist.html">
+        <p>Rate your driver!</p>
+        <select name="rating" id="rating">
+            <option>5</option>
+            <option>4</option>
+            <option>3</option>
+            <option>2</option>
+            <option>1</option>
+        </select>
+
+        <br>
+        <input type="submit" value="Choose">
+    </form>
+
+
+</body>
+</html>
