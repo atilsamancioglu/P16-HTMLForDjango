@@ -1,0 +1,24 @@
+body {
+    font-family:Pacifico;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    font-size: 150%;
+}
+
+#atil{
+    border: 7px dotted black;
+    padding-top: 30px;
+    margin: 30px;
+}
+
+#atlas{
+    border: 7px solid purple;
+    margin: 100px;
+}
